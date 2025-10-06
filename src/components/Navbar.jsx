@@ -12,6 +12,7 @@ const Navbar = () => {
           <li>Home</li>
           <li>Movies</li>
           <li>K-Drama</li>
+          <li>Anime</li>
           <li>About</li>
       
         </ul>
