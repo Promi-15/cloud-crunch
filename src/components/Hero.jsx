@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 import Typewriter from "typewriter-effect";
 
 const Hero = () => {
+    
   useEffect(() => {
     AOS.init({
       duration: 1500,
