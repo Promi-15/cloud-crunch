@@ -6,7 +6,8 @@
       "release_date": "2009-04-05",
       "description": "Two brothers, Edward and Alphonse Elric, search for the Philosopher's Stone to restore their bodies after a failed alchemical experiment.",
       "genre": ["Action", "Adventure", "Drama", "Fantasy"],
-      "episodes": 64
+      "episodes": 64,
+      "image" : 
     },
     {
       "anime_id": 2,

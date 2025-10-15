@@ -1,6 +1,7 @@
 import React from "react";
 
-const AnimeCard = () => {
+const AnimeCard = ({ anime }) => {
+   const {anime_id,name,release_date,description,genre,episodes} = anime 
   return (
     <div>
       <a href="#" className="group relative block bg-black">
