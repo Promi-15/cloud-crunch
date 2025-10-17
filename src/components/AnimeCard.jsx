@@ -1,30 +1,39 @@
 import React from "react";
 
 const AnimeCard = ({ anime }) => {
-   const {anime_id,name,release_date,description,genre,episodes} = anime 
+  const { anime_id, name, release_date, description, genre, episodes, image, classification } = anime 
+  
+  const showGenre = Array.isArray(genre) ? genre.join(", ") : genre;
+  
   return (
-    <div>
-      <a href="#" className="group relative block bg-black">
+    <div className="h-[500px] w-full bg-black rounded-lg overflow-hidden shadow-lg">
+      <a href="#" className="group relative block bg-black h-full">
         <img
-          alt=""
-          src="https://images.unsplash.com/photo-1603871165848-0aa92c869fa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
-          className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
+          alt={name}
+          src={image}
+          className="absolute inset-0 h-full w-full object-cover opacity-80 transition-all duration-300 group-hover:opacity-60 group-hover:scale-105"
         />
 
-        <div className="relative p-4 sm:p-6 lg:p-8">
-          <p className="text-sm font-medium tracking-widest text-pink-500 uppercase">
-            Developer
-          </p>
+        <div className="relative p-6 h-full flex flex-col justify-between bg-gradient-to-t from-black/10 via-black/10 to-transparent">
+          {/* Top Content */}
+          <div>
+            <p className="text-lg tracking-widest text-white uppercase font-bold">
+              <span>{anime_id}</span>. <span className="text-sm">{classification}</span>
+            </p>
+            <p className="text-xl font-bold text-white sm:text-2xl mt-2 ">{name}</p>
+          </div>
 
-          <p className="text-xl font-bold text-white sm:text-2xl">Tony Wayne</p>
-
-          <div className="mt-32 sm:mt-48 lg:mt-64">
-            <div className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
-              <p className="text-sm text-white">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
-                perferendis hic asperiores quibusdam quidem voluptates
-                doloremque reiciendis nostrum harum. Repudiandae?
+          {/* Bottom Content */}
+          <div>
+            <div className="mb-4 flex justify-between text-white text-sm">
+              <p className="text-sm italic">release_date : {release_date}</p>
+              <p className="text-sm italic">{episodes} - Episodes</p>
+            </div>
+            <div className="translate-y-8 transform opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
+              <p className="text-sm text-white mb-3 h-[72px] overflow-hidden">
+                {description}
               </p>
+              <p className="text-white font-light italic text-sm">{showGenre}</p>
             </div>
           </div>
         </div>

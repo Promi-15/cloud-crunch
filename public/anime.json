@@ -4,66 +4,101 @@
       "anime_id": 1,
       "name": "Fullmetal Alchemist: Brotherhood",
       "release_date": "2009-04-05",
-      "description": "Two brothers, Edward and Alphonse Elric, search for the Philosopher's Stone to restore their bodies after a failed alchemical experiment.",
+      "description": "Two brothers search for the Philosopher's Stone to restore their bodies after a failed alchemical experiment in this epic adventure.",
       "genre": ["Action", "Adventure", "Drama", "Fantasy"],
       "episodes": 64,
-      "image" : 
+      "image": "/images/h1.png",
+      "classification": "anime"
     },
     {
       "anime_id": 2,
       "name": "Attack on Titan",
       "release_date": "2013-04-07",
-      "description": "In a world where humanity lives inside cities surrounded by enormous walls to protect themselves from giant humanoid Titans, a young boy named Eren Yeager vows to eradicate the Titans after they destroy his hometown and kill his mother.",
+      "description": "Humanity lives inside cities surrounded by walls protecting them from giant Titans in this intense action fantasy series.",
       "genre": ["Action", "Drama", "Fantasy", "Mystery"],
-      "episodes": 94
+      "episodes": 94,
+      "image": "/images/h2.png",
+      "classification": "anime"
     },
     {
       "anime_id": 3,
       "name": "Death Note",
       "release_date": "2006-10-04",
-      "description": "A high school student named Light Yagami discovers a mysterious notebook that allows him to kill anyone whose name he writes in it. He decides to use it to create a utopian world without crime, pursued by the world's greatest detective, 'L'.",
+      "description": "A student discovers a notebook that can kill anyone whose name is written in it in this psychological thriller.",
       "genre": ["Mystery", "Psychological", "Thriller", "Supernatural"],
-      "episodes": 37
+      "episodes": 37,
+      "image": "/images/deathNote.png",
+      "classification": "anime"
     },
     {
       "anime_id": 4,
       "name": "My Hero Academia",
       "release_date": "2016-04-03",
-      "description": "In a world where most people have superpowers, a boy born without any powers dreams of becoming a hero and enrolls in a prestigious hero academy.",
+      "description": "A boy without powers dreams of becoming a hero in a world where most people have superpowers.",
       "genre": ["Action", "Comedy", "Superhero"],
-      "episodes": 138
+      "episodes": 138,
+      "image": "/images/myHero.png",
+      "classification": "anime"
     },
     {
       "anime_id": 5,
       "name": "Spy x Family",
       "release_date": "2022-04-09",
-      "description": "A spy must build a fake family to complete his mission, unknowingly adopting a psychic girl and marrying an assassin. None of them are aware of each other's true identities.",
+      "description": "A spy builds a fake family with a psychic girl and assassin wife, unaware of each other's identities.",
       "genre": ["Action", "Comedy", "Slice of Life"],
-      "episodes": 25
+      "episodes": 25,
+      "image": "/images/spyFamily.png",
+      "classification": "anime"
     },
     {
       "anime_id": 6,
       "name": "Demon Slayer: Kimetsu no Yaiba",
       "release_date": "2019-04-06",
-      "description": "After his family is slaughtered and his sister turned into a demon, a young boy named Tanjiro Kamado becomes a demon slayer to avenge his family and find a cure for his sister.",
+      "description": "A boy becomes a demon slayer to avenge his family and find a cure for his demon-turned sister.",
       "genre": ["Action", "Fantasy", "Supernatural"],
-      "episodes": 55
+      "episodes": 55,
+      "image": "/images/demonSlayer.png",
+      "classification": "anime"
     },
     {
       "anime_id": 7,
       "name": "Cowboy Bebop",
       "release_date": "1998-04-03",
-      "description": "The futuristic misadventures and tragedies of an easy-going bounty hunter and his partners.",
+      "description": "The futuristic misadventures of an easy-going bounty hunter and his partners in space.",
       "genre": ["Action", "Adventure", "Sci-Fi", "Noir"],
-      "episodes": 26
+      "episodes": 26,
+      "image": "/images/cowboyBebop.png",
+      "classification": "anime"
     },
     {
       "anime_id": 8,
-      "name": "Your Lie in April",
-      "release_date": "2014-10-10",
-      "description": "A piano prodigy who can no longer hear his own playing is inspired to return to music by a free-spirited violinist.",
-      "genre": ["Drama", "Music", "Romance"],
-      "episodes": 22
+      "name": "Dr. Stone",
+      "release_date": "2019-07-05",
+      "description": "A scientific genius attempts to revive civilization after humanity is turned to stone.",
+      "genre": ["Adventure", "Comedy", "Sci-Fi"],
+      "episodes": 47,
+      "image": "/images/drStone.png",
+      "classification": "anime"
+    },
+    {
+      "anime_id": 9,
+      "name": "Your Name",
+      "release_date": "2016-08-26",
+      "description": "Two teenagers share a magical connection when they discover they are swapping bodies mysteriously.",
+      "genre": ["Romance", "Supernatural", "Drama"],
+      "episodes": 1,
+      "image": "/images/yourName.png",
+      "classification": "movie"
+    },
+    {
+      "anime_id": 10,
+      "name": "Erased",
+      "release_date": "2016-01-08",
+      "description": "A man travels back in time to prevent a tragic event and save his classmates from a killer.",
+      "genre": ["Mystery", "Psychological", "Supernatural", "Thriller"],
+      "episodes": 12,
+      "image": "/images/erased.png",
+      "classification": "anime"
     }
   ]
 }
