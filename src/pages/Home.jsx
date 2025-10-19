@@ -6,7 +6,7 @@ import List from '../components/List'
 
 const Home = () => {
   return (
-    <div className=''>
+    <div  className="bg-gradient-to-b from-gray-700 to-black">
           {/* <Navbar /> */}
       <Hero />
       <Banner/>

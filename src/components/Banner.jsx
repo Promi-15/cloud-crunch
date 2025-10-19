@@ -4,11 +4,13 @@ const Banner = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <div className="relative h-[600px] bg-gradient-to-b from-rose-950/80 to-black">
+    <div className="relative h-[600px] bg-gradient-to-b from-rose-950/80 to-black mt-14">
+      <div className="h-14 w-full absolute -top-14 bg-gradient-to-b from-black/60 to-rose-950/80 "></div>
+      <div className="absolute -top-14 inset-0 bg-gradient-to-l from-black/80 via-black/45 to-transparent h-14"></div>
       <div className="ml-5.5 h-full flex items-center">
         {/* Text Content on Left */}
         <div className="w-1/3 z-10">
-          <div className="absolute inset-0 bg-gradient-to-l from-black/90 via-black/55 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-l from-black/80 via-black/45 to-transparent"></div>
           <h1 className="text-5xl italic font-bold text-white mb-4">
             Watch Anime Online
           </h1>

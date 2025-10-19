@@ -1,7 +1,7 @@
 {
   "anime": [
     {
-      "anime_id": 1,
+      "id": 1,
       "name": "Fullmetal Alchemist: Brotherhood",
       "release_date": "2009-04-05",
       "description": "Two brothers search for the Philosopher's Stone to restore their bodies after a failed alchemical experiment in this epic adventure.",
@@ -11,77 +11,57 @@
       "classification": "anime"
     },
     {
-      "anime_id": 2,
-      "name": "Attack on Titan",
-      "release_date": "2013-04-07",
-      "description": "Humanity lives inside cities surrounded by walls protecting them from giant Titans in this intense action fantasy series.",
-      "genre": ["Action", "Drama", "Fantasy", "Mystery"],
-      "episodes": 94,
-      "image": "/images/h2.png",
-      "classification": "anime"
-    },
-    {
-      "anime_id": 3,
-      "name": "Death Note",
-      "release_date": "2006-10-04",
-      "description": "A student discovers a notebook that can kill anyone whose name is written in it in this psychological thriller.",
-      "genre": ["Mystery", "Psychological", "Thriller", "Supernatural"],
-      "episodes": 37,
-      "image": "/images/deathNote.png",
-      "classification": "anime"
-    },
-    {
-      "anime_id": 4,
+      "id": 2,
       "name": "My Hero Academia",
       "release_date": "2016-04-03",
       "description": "A boy without powers dreams of becoming a hero in a world where most people have superpowers.",
       "genre": ["Action", "Comedy", "Superhero"],
       "episodes": 138,
-      "image": "/images/myHero.png",
+      "image": "/images/h2.png",
       "classification": "anime"
     },
     {
-      "anime_id": 5,
-      "name": "Spy x Family",
-      "release_date": "2022-04-09",
-      "description": "A spy builds a fake family with a psychic girl and assassin wife, unaware of each other's identities.",
-      "genre": ["Action", "Comedy", "Slice of Life"],
-      "episodes": 25,
-      "image": "/images/spyFamily.png",
+      "id": 3,
+      "name": "Death Note",
+      "release_date": "2006-10-04",
+      "description": "A student discovers a notebook that can kill anyone whose name is written in it in this psychological thriller.",
+      "genre": ["Mystery", "Psychological", "Thriller", "Supernatural"],
+      "episodes": 37,
+      "image": "/images/deathnote.jpg",
       "classification": "anime"
     },
     {
-      "anime_id": 6,
-      "name": "Demon Slayer: Kimetsu no Yaiba",
-      "release_date": "2019-04-06",
-      "description": "A boy becomes a demon slayer to avenge his family and find a cure for his demon-turned sister.",
-      "genre": ["Action", "Fantasy", "Supernatural"],
-      "episodes": 55,
-      "image": "/images/demonSlayer.png",
+      "id": 4,
+      "name": "Attack on Titan",
+      "release_date": "2013-04-07",
+      "description": "Humanity lives inside cities surrounded by walls protecting them from giant Titans in this intense action fantasy series.",
+      "genre": ["Action", "Drama", "Fantasy", "Mystery"],
+      "episodes": 94,
+      "image": "/public/images/attackOnTitan.jpg",
       "classification": "anime"
     },
     {
-      "anime_id": 7,
-      "name": "Cowboy Bebop",
-      "release_date": "1998-04-03",
-      "description": "The futuristic misadventures of an easy-going bounty hunter and his partners in space.",
-      "genre": ["Action", "Adventure", "Sci-Fi", "Noir"],
+      "id": 7,
+      "name": "Vampire Knight",
+      "release_date": "2008-04-08",
+      "description": "At Cross Academy, Yuki Cross must protect her childhood friend Kaname from the vampire hunter Zero, while hiding her own mysterious past and connection to the vampire world.",
+      "genre": ["Drama", "Fantasy", "Romance", "Supernatural", "Vampire"],
       "episodes": 26,
-      "image": "/images/cowboyBebop.png",
+      "image": "/images/vampireN8.jpg",
       "classification": "anime"
     },
     {
-      "anime_id": 8,
+      "id": 8,
       "name": "Dr. Stone",
       "release_date": "2019-07-05",
       "description": "A scientific genius attempts to revive civilization after humanity is turned to stone.",
       "genre": ["Adventure", "Comedy", "Sci-Fi"],
       "episodes": 47,
-      "image": "/images/drStone.png",
+      "image": "/images/drStone.jpg",
       "classification": "anime"
     },
     {
-      "anime_id": 9,
+      "id": 9,
       "name": "Your Name",
       "release_date": "2016-08-26",
       "description": "Two teenagers share a magical connection when they discover they are swapping bodies mysteriously.",
@@ -91,13 +71,23 @@
       "classification": "movie"
     },
     {
-      "anime_id": 10,
+      "id": 10,
       "name": "Erased",
       "release_date": "2016-01-08",
       "description": "A man travels back in time to prevent a tragic event and save his classmates from a killer.",
       "genre": ["Mystery", "Psychological", "Supernatural", "Thriller"],
       "episodes": 12,
       "image": "/images/erased.png",
+      "classification": "anime"
+    },
+    {
+      "id": 11,
+      "name": "Jujutsu Kaisen",
+      "release_date": "2020-10-03",
+      "description": "A high school student becomes a Jujutsu sorcerer to fight curses after swallowing a powerful cursed object.",
+      "genre": ["Action", "Fantasy", "Supernatural", "Horror"],
+      "episodes": 47,
+      "image": "/images/hero4.jpg",
       "classification": "anime"
     }
   ]

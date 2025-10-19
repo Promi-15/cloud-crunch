@@ -17,9 +17,9 @@ useEffect(() => {
 }, []);
   return (
     <div  className="bg-gradient-to-b from-gray-700 to-black">
-      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 pt-10">
+      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 pt-10 px-5 pb-5">
         {animes?.map((anime) => (
-          <AnimeCard key={anime.anime_id} anime={anime}></AnimeCard>
+          <AnimeCard key={anime.id} anime={anime}></AnimeCard>
         ))}
       </div>
     </div>
