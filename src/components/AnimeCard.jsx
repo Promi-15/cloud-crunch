@@ -1,12 +1,12 @@
 import React from "react";
 
 const AnimeCard = ({ anime }) => {
-  const { anime_id, name, release_date, description, genre, episodes, image, classification } = anime 
+  const { id, name, release_date, description, genre, episodes, image, classification } = anime 
   
   const showGenre = Array.isArray(genre) ? genre.join(", ") : genre;
   
   return (
-    <div className="h-[500px] w-full bg-black rounded-lg overflow-hidden shadow-lg">
+    <div className="h-[500px] w-full bg-black rounded-lg overflow-hidden shadow-lg ">
       <a href="#" className="group relative block bg-black h-full">
         <img
           alt={name}
@@ -18,7 +18,7 @@ const AnimeCard = ({ anime }) => {
           {/* Top Content */}
           <div>
             <p className="text-lg tracking-widest text-white uppercase font-bold">
-              <span>{anime_id}</span>. <span className="text-sm">{classification}</span>
+              <span>{id}</span>. <span className="text-sm">{classification}</span>
             </p>
             <p className="text-xl font-bold text-white sm:text-2xl mt-2 ">{name}</p>
           </div>
