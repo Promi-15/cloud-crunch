@@ -10,7 +10,7 @@ const Banner = () => {
       <div className="ml-5.5 h-full flex items-center">
         {/* Text Content on Left */}
         <div className="w-1/3 z-10">
-          <div className="absolute inset-0 bg-gradient-to-l from-black/80 via-black/45 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-l from-black/65 via-black/45 to-transparent"></div>
           <h1 className="text-5xl italic font-bold text-white mb-4">
             Watch Anime Online
           </h1>
