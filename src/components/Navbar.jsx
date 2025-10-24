@@ -1,5 +1,6 @@
 import React from "react";
 import { CiHeart } from "react-icons/ci";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -36,7 +37,9 @@ const Navbar = () => {
             <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-500 group-hover:w-full"></span>
           </li>
           <li className="relative group cursor-pointer">
-            Login
+            <Link to="/login">
+             Login
+            </Link>
             <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-500 group-hover:w-full"></span>
           </li>
         </ul>
