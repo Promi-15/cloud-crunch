@@ -6,7 +6,7 @@ const AnimeCard = ({ anime }) => {
   const showGenre = Array.isArray(genre) ? genre.join(", ") : genre;
   
   return (
-    <div className="h-[500px] w-full bg-black rounded-lg overflow-hidden shadow-lg ">
+    <div className="h-[500px] w-full bg-black rounded-lg overflow-hidden shadow-lg border-b-2 border-t-2 border-white ">
       <a href="#" className="group relative block bg-black h-full">
         <img
           alt={name}
