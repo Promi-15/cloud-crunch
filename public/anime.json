@@ -37,7 +37,7 @@
       "description": "Humanity lives inside cities surrounded by walls protecting them from giant Titans in this intense action fantasy series.",
       "genre": ["Action", "Drama", "Fantasy", "Mystery"],
       "episodes": 94,
-      "image": "/images/attackOnTitan.jpg",
+      "image": "/images/titan.jpg",
       "classification": "anime"
     },
     {
@@ -47,7 +47,7 @@
       "description": "At Cross Academy, Yuki Cross must protect her childhood friend Kaname from the vampire hunter Zero, while hiding her own mysterious past and connection to the vampire world.",
       "genre": ["Drama", "Fantasy", "Romance", "Supernatural", "Vampire"],
       "episodes": 26,
-      "image": "/images/vampireN8.jpg",
+      "image": "/images/vampire.jpg",
       "classification": "anime"
     },
     {
@@ -57,7 +57,7 @@
       "description": "A scientific genius attempts to revive civilization after humanity is turned to stone.",
       "genre": ["Adventure", "Comedy", "Sci-Fi"],
       "episodes": 47,
-      "image": "/images/drStone.jpg",
+      "image": "/images/stone.jpg",
       "classification": "anime"
     },
     {
@@ -67,7 +67,7 @@
       "description": "Two teenagers share a magical connection when they discover they are swapping bodies mysteriously.",
       "genre": ["Romance", "Supernatural", "Drama"],
       "episodes": 1,
-      "image": "/images/yourName.png",
+      "image": "/images/name.jpg",
       "classification": "movie"
     },
     {
@@ -77,7 +77,7 @@
       "description": "A man travels back in time to prevent a tragic event and save his classmates from a killer.",
       "genre": ["Mystery", "Psychological", "Supernatural", "Thriller"],
       "episodes": 12,
-      "image": "/images/erased.png",
+      "image": "/images/erased.jpg",
       "classification": "anime"
     },
     {
